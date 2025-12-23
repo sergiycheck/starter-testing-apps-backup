@@ -1,0 +1,12 @@
+{
+  "configurations": [
+    {
+      "name": "Launch index.ts with npx and ts-node",
+      "request": "launch",
+      "type": "node",
+      "runtimeExecutable": "npx",
+      "runtimeArgs": ["ts-node", "./src/index.ts"],
+      "console": "integratedTerminal"
+    }
+  ]
+}

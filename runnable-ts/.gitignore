@@ -1,0 +1,7 @@
+node_modules
+dist
+test_files
+coverage
+.env
+dev-service-acc.json
+./src/cloudinary/config.json

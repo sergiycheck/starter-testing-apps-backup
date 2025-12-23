@@ -1,0 +1,22 @@
+{
+  "name": "esbuild-node",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon ./src/index.ts",
+    "dev:tsc": "tsc --watch --preserveWatchOutput ./src/work.ts",
+    "dev:node": "node --enable-source-maps --watch dist/index.js"
+  },
+  "keywords": [],
+  "author": "Matt Pocock",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.17.19",
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "nodemon": "^3.1.9",
+    "ts-node": "^10.9.2"
+  }
+}
